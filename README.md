@@ -29,10 +29,6 @@ Nest.js全栈开发：学习使用Nest.js构建后端API
 TypeScript进阶：深入学习类型系统和高级特性
 前端工程化：探索更高效的开发流程和工具链
 
-📚 学习资源分享
-Vue.js官方文档 - Vue.js中文文档
-TypeScript官方文档 - TypeScript中文手册
-Nest.js官方文档 - Nest.js英文文档
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="贪吃蛇贡献图" />

@@ -1,5 +1,3 @@
-# 🚀 欢迎访问我的GitHub主页
-
 <h1 align="center">👨‍💻 wolaishishihuo | 前端开发者</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Frontend%20Development-blue" />

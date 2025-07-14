@@ -33,10 +33,7 @@ TypeScript进阶：深入学习类型系统和高级特性
 Vue.js官方文档 - Vue.js中文文档
 TypeScript官方文档 - TypeScript中文手册
 Nest.js官方文档 - Nest.js英文文档
-🔍 访问统计
-<div align="center">
-<img src="https://profile-counter.glitch.me/wolaishishihuo/count.svg" alt="访问计数器" />
-</div>
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="贪吃蛇贡献图" />
 </div>

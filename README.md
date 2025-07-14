@@ -28,10 +28,7 @@
 Nest.js全栈开发：学习使用Nest.js构建后端API
 TypeScript进阶：深入学习类型系统和高级特性
 前端工程化：探索更高效的开发流程和工具链
-📈 编程语言统计
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolaishishihuo&layout=compact&theme=vue-dark&hide_border=true&locale=cn" alt="常用语言" />
-</div>
+
 📚 学习资源分享
 Vue.js官方文档 - Vue.js中文文档
 TypeScript官方文档 - TypeScript中文手册

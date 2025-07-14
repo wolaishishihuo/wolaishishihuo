@@ -56,7 +56,7 @@ Browser: Chrome
 ## 👀 访问统计
 
 <div align="center">
-<img src="https://profile-counter.glitch.me/wolaishishihuo/count.svg" alt="访问计数器" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=wolaishishihuo.wolaishishihuo" alt="访问计数器"/>
 </div>
 
 <div align="center">

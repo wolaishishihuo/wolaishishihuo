@@ -21,8 +21,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Create output directory
+        run: mkdir -p dist
+      
       - name: Generate contribution grid
         uses: platane/snk@master
+        id: snk
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -30,11 +34,41 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
+      - name: Debug - List generated files
+        run: |
+          echo "=== Checking for generated files ==="
+          find . -name "*.svg" -type f 2>/dev/null | head -20 || echo "No SVG files found"
+          echo ""
+          echo "=== Checking dist directory ==="
+          ls -la dist/ 2>/dev/null || echo "dist directory does not exist"
+          echo ""
+          echo "=== Checking output directory ==="
+          ls -la output/ 2>/dev/null || echo "output directory does not exist"
+          echo ""
+          echo "=== Checking root directory ==="
+          ls -la *.svg 2>/dev/null || echo "No SVG files in root"
+          
       - name: Push the generated file
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git add dist/github-contribution-grid.svg
+          
+          # 尝试多个可能的路径
+          FILE_PATH=""
+          if [ -f "dist/github-contribution-grid.svg" ]; then
+            FILE_PATH="dist/github-contribution-grid.svg"
+          elif [ -f "output/github-contribution-grid.svg" ]; then
+            FILE_PATH="output/github-contribution-grid.svg"
+          elif [ -f "github-contribution-grid.svg" ]; then
+            FILE_PATH="github-contribution-grid.svg"
+          else
+            echo "Error: Contribution grid SVG file not found in any expected location"
+            echo "Please check the debug output above to see where files were generated"
+            exit 1
+          fi
+          
+          echo "Found file at: $FILE_PATH"
+          git add "$FILE_PATH"
           git diff --staged --quiet || git commit -m "Update contribution grid"
           git push
 

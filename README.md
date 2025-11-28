@@ -5,6 +5,12 @@
 </p>
 
 <div align="center">
+  <a href="https://wolaishishihuo.github.io/wolaishishihuo/">
+    <img src="https://img.shields.io/badge/Live_Demo-3D_Portfolio-65f4ea?style=for-the-badge&logo=three.js&logoColor=black" alt="3D Demo" />
+  </a>
+</div>
+
+<div align="center">
   <img src="https://img.shields.io/badge/Three.js-Learning-black?style=flat-square&logo=three.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Focus-Frontend-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Stack-Full--Stack-red?style=flat-square" />
@@ -48,15 +54,11 @@
   <br/>
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=wolaishishihuo&theme=tokyonight&hide_border=true&locale=zh" alt="Streak Stats" />
+  <br/>
+  <br/>
+  <!-- 贡献图：使用主题色渲染 -->
+  <img src="https://ghchart.rshah.org/65f4ea/wolaishishihuo" alt="wolaishishihuo's Github chart" />
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</div>
-
-<br/>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=wolaishishihuo.wolaishishihuo" alt="Visitor Count"/>

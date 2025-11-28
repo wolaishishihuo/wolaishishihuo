@@ -56,8 +56,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=wolaishishihuo&theme=tokyonight&hide_border=true&locale=zh" alt="Streak Stats" />
   <br/>
   <br/>
-  <!-- 贡献图：使用主题色渲染 -->
-  <img src="https://ghchart.rshah.org/65f4ea/wolaishishihuo" alt="wolaishishihuo's Github chart" />
+  <!-- 详细贡献趋势图 (Activity Graph) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wolaishishihuo&theme=tokyonight&hide_border=true&area=true" alt="Activity Graph" />
 </div>
 
 <div align="center">

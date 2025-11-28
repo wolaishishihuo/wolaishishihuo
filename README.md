@@ -49,15 +49,18 @@
 ## 📊 GitHub 数据 (Stats)
 
 <div align="center">
-  <!-- 使用 tokyonight 主题，更有科技感 -->
+  <!-- 🏆 个人成就勋章：让主页看起来更丰富，无需大量提交也能展示成就 -->
+  <img src="https://github-profile-trophy.vercel.app/?username=wolaishishihuo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  <br/>
+  <br/>
+  
+  <!-- 📊 核心数据统计 -->
   <img src="https://github-readme-stats.vercel.app/api?username=wolaishishihuo&show_icons=true&theme=tokyonight&hide_border=true&locale=cn" alt="GitHub Stats" />
   <br/>
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wolaishishihuo&theme=tokyonight&hide_border=true&locale=zh" alt="Streak Stats" />
-  <br/>
-  <br/>
-  <!-- 详细贡献趋势图 (Activity Graph) -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wolaishishihuo&theme=tokyonight&hide_border=true&area=true" alt="Activity Graph" />
+  
+  <!-- 📈 生产力分析：细分到具体时间段，展示"质"而非"量" -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wolaishishihuo&theme=tokyonight&utcOffset=8" alt="Productive Time" />
 </div>
 
 <div align="center">

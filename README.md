@@ -49,18 +49,15 @@
 ## 📊 GitHub 数据 (Stats)
 
 <div align="center">
-  <!-- 🏆 个人成就勋章：让主页看起来更丰富，无需大量提交也能展示成就 -->
-  <img src="https://github-profile-trophy.vercel.app/?username=wolaishishihuo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-  <br/>
-  <br/>
-  
-  <!-- 📊 核心数据统计 -->
+  <!-- 使用 tokyonight 主题，更有科技感 -->
   <img src="https://github-readme-stats.vercel.app/api?username=wolaishishihuo&show_icons=true&theme=tokyonight&hide_border=true&locale=cn" alt="GitHub Stats" />
   <br/>
   <br/>
-  
-  <!-- 📈 生产力分析：细分到具体时间段，展示"质"而非"量" -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wolaishishihuo&theme=tokyonight&utcOffset=8" alt="Productive Time" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wolaishishihuo&theme=tokyonight&hide_border=true&locale=zh" alt="Streak Stats" />
+  <br/>
+  <br/>
+  <!-- 贡献图：使用 platane/snk 静态版本（无贪吃蛇动画） -->
+  <img src="https://raw.githubusercontent.com/wolaishishihuo/wolaishishihuo/output/github-contribution-grid.svg" alt="wolaishishihuo's Github contribution grid" />
 </div>
 
 <div align="center">

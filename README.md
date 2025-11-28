@@ -56,8 +56,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=wolaishishihuo&theme=tokyonight&hide_border=true&locale=zh" alt="Streak Stats" />
   <br/>
   <br/>
-  <!-- 贡献图：使用 platane/snk 静态版本（无贪吃蛇动画） -->
-  <img src="https://raw.githubusercontent.com/wolaishishihuo/wolaishishihuo/output/github-contribution-grid.svg" alt="wolaishishihuo's Github contribution grid" />
+  <!-- 贡献图：使用 GitHub 原生贡献图（静态，无动画） -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wolaishishihuo&theme=github-compact&hide_border=true" alt="wolaishishihuo's Github activity graph" />
 </div>
 
 <div align="center">

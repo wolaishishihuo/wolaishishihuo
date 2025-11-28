@@ -5,19 +5,28 @@ on:
     # 每天 UTC 时间 00:00 运行（北京时间 08:00）
     - cron: '0 0 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
-      - uses: platane/snk@master
-        id: snk
+      - name: Generate contribution grid
+        uses: platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            output/github-contribution-grid.svg?palette=github
+            dist/github-contribution-grid.svg?palette=github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
@@ -25,7 +34,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git add output/github-contribution-grid.svg
-          git commit -m "Update contribution grid" || exit 0
+          git add dist/github-contribution-grid.svg
+          git diff --staged --quiet || git commit -m "Update contribution grid"
           git push
 
